@@ -14,7 +14,7 @@ Text with Emoji for Laravel 5.X
 To get the latest version of Laravel Emoji, simply add the following line to the require block of your `composer.json` file.
 
 ```
-"bahricanli/laravel-emoji": "~1.0"
+"bahricanli/laravel-emoji": "dev-master"
 ```
 
 ## Emoji Source
