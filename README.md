@@ -9,12 +9,12 @@ Text with Emoji for Laravel 5.X
 
 ## Installation
 
-[PHP](https://php.net) 7 and [Composer](https://getcomposer.org) are required.
+[PHP](https://php.net) 5.3.3 and [Composer](https://getcomposer.org) are required.
 
 To get the latest version of Laravel Emoji, simply add the following line to the require block of your `composer.json` file.
 
 ```
-"bahricanli/laravel-emoji": "1.0.*"
+"bahricanli/laravel-emoji": "~1.0"
 ```
 
 ## Emoji Source
