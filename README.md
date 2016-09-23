@@ -12,7 +12,7 @@ Text with Emoji for Laravel 5.X
 Via Composer
 
 ``` bash
-$ composer require "bahricanli/laravel-emoji": "dev-master"
+$ composer require "bahricanli/laravel-emoji:dev-master"
 ```
 
 ## Usage
