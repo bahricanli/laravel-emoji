@@ -8,9 +8,9 @@ class LaravelEmoji extends Controller {
 
 	static public function covertEmojiToName($data) {
 		$data = emoji_docomo_to_unified($data);   # DoCoMo devices
-	    	$data = emoji_kddi_to_unified($data);     # KDDI & Au devices
-    		$data = emoji_softbank_to_unified($data); # Softbank & (iPhone) Apple devices
-	    	$data = emoji_google_to_unified($data);   # Google Android devices
+	    $data = emoji_kddi_to_unified($data);     # KDDI & Au devices
+    	$data = emoji_softbank_to_unified($data); # Softbank & (iPhone) Apple devices
+	    $data = emoji_google_to_unified($data);   # Google Android devices
 		$data = emoji_unified_to_name($data);
 		$data = emoji_unified_to_key($data);
 		return $data;
@@ -60,12 +60,7 @@ class LaravelEmoji extends Controller {
 			$char = mb_substr($data, $i, 1, 'UTF-8');
 			$charCode = LaravelEmoji::uniChrCode($char);
 
-			if($charCode>1000) {
-				
-				/*if ( $charCode < 0 || $charCode > 0xFFFF ) {
-					$CPString .= 'Error1 ' . strtolower(dechex($charCode)) . '!';
-				}*/
-
+			if($charCode>1000) {				
 
 				if ($haut != 0) {
 					if (0xDC00 <= $charCode&& $charCode<= 0xDFFF) {
