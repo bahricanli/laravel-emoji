@@ -9,12 +9,20 @@ Text with Emoji for Laravel 5.X
 
 ## Installation
 
-[PHP](https://php.net) 5.3.3 and [Composer](https://getcomposer.org) are required.
+Via Composer
 
-To get the latest version of Laravel Emoji, simply add the following line to the require block of your `composer.json` file.
-
+``` bash
+$ composer require "bahricanli/laravel-emoji": "dev-master"
 ```
-"bahricanli/laravel-emoji": "dev-master"
+
+## Usage
+
+
+``` php
+use BahriCanli\LaravelEmoji\LaravelEmoji;
+
+$str = "Power 󾮖 ";
+LaravelEmoji::textWithEmoji($str);
 ```
 
 ## Emoji Source
