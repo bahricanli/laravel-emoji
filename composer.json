@@ -1,6 +1,8 @@
 {
     "name": "bahricanli/laravel-emoji",
-    "description": "Emoji for Laravel",
+    "description": "Text with Emoji for Laravel",
+    "type": "library",
+    "version": "1.0.0",
     "require": {
 	"php": ">=5.3.3",
 	"laravel/laravel": "5.1.*"
