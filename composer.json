@@ -4,8 +4,8 @@
     "type": "library",
     "version": "1.0.0",
     "require": {
-	"php": ">=5.3.3",
-	"laravel/laravel": "5.*"
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0 || ~4.0"
     },
     "license": "MIT",
     "authors": [
@@ -20,10 +20,5 @@
             "BahriCanli\\LaravelEmoji\\": "packages/bahricanli/laravel-emoji/src"
         }
     },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
+    "minimum-stability": "stable"
 }
