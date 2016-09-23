@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "require": {
 	"php": ">=5.3.3",
-	"laravel/laravel": "5.1.*"
+	"laravel/laravel": "5.*"
     },
     "license": "MIT",
     "authors": [
