@@ -3,7 +3,7 @@
     "description": "Emoji for Laravel",
     "require": {
 	"php": ">=5.3.3",
-	"laravel/framework": ">=5.1.*"
+	"laravel/laravel": ">=5.1.*"
     },
     "license": "MIT",
     "authors": [
